@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <TextView
+        android:id="@+id/paymentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#F8BFD2"
+        android:drawableRight="@drawable/treeicon"
+        android:gravity="center"
+        android:text="Payment"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#F8BFD2" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/paymentTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#090909"
+        android:gravity="center"
+        android:text="1500$"
+        android:textColor="#F8BFD2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#090909" />
+
+
+    <TextView
+        android:id="@+id/nameCard"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/price"
+        android:layout_marginTop="40dp"
+        android:background="#FEFFFF"
+        android:gravity="center"
+        android:text="Owner of card: "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:backgroundTint="#08E91E63" />
+
+    <EditText
+        android:id="@+id/editOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/nameCard"
+        android:layout_alignBottom="@id/nameCard"
+        android:layout_toRightOf="@id/nameCard"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/cardNum"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/nameCard"
+        android:layout_marginTop="40dp"
+        android:background="#FEFFFF"
+        android:gravity="center"
+        android:text="Card Number: "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:backgroundTint="#08E91E63" />
+
+    <EditText
+        android:id="@+id/editCardNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cardNum"
+        android:layout_alignBottom="@id/cardNum"
+        android:layout_toRightOf="@id/cardNum"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/expCard"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/cardNum"
+        android:layout_marginTop="50dp"
+        android:background="#FEFFFF"
+        android:gravity="center"
+        android:text="Exp. Date: "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:backgroundTint="#08E91E63" />
+
+    <EditText
+        android:id="@+id/editExpCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/expCard"
+        android:layout_alignBottom="@id/expCard"
+        android:layout_toRightOf="@id/expCard"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/cvc"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/expCard"
+        android:layout_marginTop="50dp"
+        android:background="#FEFFFF"
+        android:gravity="center"
+        android:text="CVC: "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:backgroundTint="#08E91E63" />
+
+    <EditText
+        android:id="@+id/editcvc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cvc"
+        android:layout_alignBottom="@id/cvc"
+        android:layout_toRightOf="@id/cvc"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cvc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#F6E235"
+        android:gravity="center"
+        android:text="Process Payment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#F6E235" />
+
+</RelativeLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/reservationTitle"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Cancellation">
+
+<TextView
+    android:id="@+id/cancelTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="#A2EAA5"
+    android:drawableRight="@drawable/treeicon"
+    android:gravity="center"
+    android:text="Cancel your reservation"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:textStyle="bold|italic"
+    app:backgroundTint="#A2EAA5" />
+
+<TextView
+    android:id="@+id/price"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_below="@id/cancelTitle"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:background="#090909"
+    android:gravity="center"
+    android:text="Refund of 1500$"
+    android:textColor="#F8BFD2"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    app:backgroundTint="#090909" />
+
+<TextView
+    android:id="@+id/txtViewDate"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:layout_below="@id/price"
+    android:layout_marginTop="20dp"
+    android:background="#D6F6FA"
+    android:drawableLeft="@drawable/calender"
+    android:text="Reservation Date :"
+    android:textColor="#4F7A50"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/txtViewNumP"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:layout_below="@id/txtViewDate"
+    android:layout_marginTop="20dp"
+    android:background="#D6F6FA"
+    android:drawableLeft="@drawable/people"
+    android:text="Number of People :"
+    android:textColor="#4F7A50"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/txtViewResort"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:layout_below="@id/txtViewNumP"
+    android:layout_marginTop="20dp"
+    android:background="#D6F6FA"
+    android:drawableLeft="@drawable/resort"
+    android:text="Your Resort :"
+    android:textColor="#4F7A50"
+    android:textSize="20sp" />
+
+<TextView
+    android:id="@+id/txtViewNumRoom"
+    android:layout_width="match_parent"
+    android:layout_height="41dp"
+    android:layout_below="@id/txtViewResort"
+    android:layout_marginTop="20dp"
+    android:background="#D6F6FA"
+    android:drawableLeft="@drawable/room"
+    android:text="Number of Room :"
+    android:textColor="#4F7A50"
+    android:textSize="20sp" />
+
+<Button
+    android:id="@+id/displayReservations"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextRNum"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:background="#A2EAA5"
+    android:gravity="center"
+    android:text="Display Reservations"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:backgroundTint="#A2EAA5" />
+
+<Button
+    android:id="@+id/confirmCancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/displayReservations"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:background="#A2EAA5"
+    android:gravity="center"
+    android:text="Confirm"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:backgroundTint="#A2EAA5" />
+
+<Button
+    android:id="@+id/backToMain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/confirmCancel"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:background="#A2EAA5"
+    android:gravity="center"
+    android:onClick="onClick"
+    android:text="Back to main page"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:backgroundTint="#A2EAA5" />
+
+<EditText
+    android:id="@+id/editTextRNum"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txtViewNumRoom"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:ems="10"
+    android:hint="Res Id"
+    android:inputType="textPersonName" />
+
+<TextView
+    android:id="@+id/textViewCancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/txtViewNumRoom"
+    android:layout_toLeftOf="@id/editTextRNum"
+    android:text="Cancel reservation ID: "
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cancelTitle"
+        android:layout_alignTop="@id/price"
+        android:text="Help"
+        app:backgroundTint="#009688"
+        app:icon="@drawable/question_icon1"
+        app:iconSize="15dp" />
+
+</RelativeLayout>

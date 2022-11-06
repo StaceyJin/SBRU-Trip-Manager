@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reservation">
+
+    <TextView
+        android:id="@+id/reservationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#A2EAA5"
+        android:drawableRight="@drawable/treeicon"
+        android:gravity="center"
+        android:text="Your Reservation"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#A2EAA5" />
+
+    <ImageView
+        android:id="@+id/imageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/reservationTitle"
+        android:scaleType="fitXY"
+        android:src="@drawable/vacation3" />
+
+    <TextView
+        android:id="@+id/txtViewResDate"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_below="@id/imageViewId"
+        android:layout_marginTop="10dp"
+        android:background="#D6F6FA"
+        android:drawableLeft="@drawable/calender"
+        android:hint="Reservation Date :"
+        android:textColor="#4F7A50"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtViewNumP"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_below="@id/txtViewResDate"
+        android:layout_marginTop="10dp"
+        android:background="#D6F6FA"
+        android:drawableLeft="@drawable/people"
+        android:hint="Number of People"
+        android:textColor="#4F7A50"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtViewResort"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_below="@id/txtViewNumP"
+        android:layout_marginTop="10dp"
+        android:background="#D6F6FA"
+        android:drawableLeft="@drawable/resort"
+        android:hint="Your Resort :"
+        android:textColor="#4F7A50"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtViewNumRoom"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_below="@id/txtViewResort"
+        android:layout_marginTop="10dp"
+        android:background="#D6F6FA"
+        android:drawableLeft="@drawable/room"
+        android:hint="Number of Room :"
+        android:textColor="#4F7A50"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/backToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/txtViewNumRoom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#A2EAA5"
+        android:gravity="center"
+        android:text="Back To Main Page"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#A2EAA5" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/backToMain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#A2EAA5"
+        android:gravity="center"
+        android:text="Cancel Reservation"
+        android:textColor="#050505"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#A2EAA5" />
+    <Button
+        android:id="@+id/btnSaveToTable"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/txtViewNumRoom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#A2EAA5"
+        android:text="Save"
+        android:textColor="#050505"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:backgroundTint="#A2EAA5" />
+
+
+</RelativeLayout>

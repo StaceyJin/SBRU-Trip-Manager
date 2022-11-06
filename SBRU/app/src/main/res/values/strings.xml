@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">SBRU Trip Manager</string>
+
+    <string name="cancun_info">
+     Habitaciones Incluye las habitaciones de tu elección.
+
+    Actividades Actividades diarias conducidas por animadores. El programa varía diariamente.
+
+    Impuestos y propinas Todos los impuestos y propinas están incluidos.
+
+    Entretenimiento Incluye actividades diarias y noches de película. El programa varia diariamente.
+
+    Alimentos y Bebidas Incluye los 3 alimentos: desayuno, comida y cena con buffet asistido además de snacks y barra libre de bebidas nacionales. Por el momento el servicio de room service se encuentra suspendido. Los alimentos a la carta tiene costo extra.
+
+    Deportes Acuáticos Incluye actividades acuáticas tales como kayak y aerobics acuáticos.
+
+    Deportes en tierra Los deportes en tierra incluyen voleibol, badminton y ping pong.
+
+    Restricciones Por el momento existen restricciones en los horarios de los centros de consumo, a la llegada se entrega una hoja con la información.
+    </string>
+
+    <string name="miami_info">
+      Situated on oceanfront Collins Avenue in the heart of Millionaire\'s Row, Fontainebleau Miami Beach is one
+        of the most historically and architecturally significant hotels on Miami Beach, Florida. Its iconic design
+        is a spectacular blend of Miami’s glamorous golden era and stylish modern luxury. A revered Miami Beach
+        landmark for more than half a century, Morris Lapidus’ emblematic curvilinear building sets a new standard
+        for business and pleasure. The 22-acre oceanfront Miami Beach hotel features signature restaurants by
+        award-winning chefs; two chic nightlife venues; a two-story spa, a virtually endless poolscape, miles of
+        pristine beach and state-of-the-art conference and event facilities.
+    </string>
+
+    <string name="puntacana_info">
+        This hotel is centrally located in Punta Cana Village, 10 minutes’ drive from its private beach and just 2 km from Punta Cana International Airport. It features free Wi-Fi, a swimming pool and a gym.
+
+        The Four Points by Sheraton Punta Cana Village offer air-conditioned rooms with modern décor, a desk, heating and cable TV. The bathrooms have shower and come with free toiletries.
+
+        Free scheduled shuttle to the golf course La Cana, the Six Senses Spa, Punta Cana beach and the Punta Cana Nature Reserve.
+
+        The guests at the Four Points can enjoy international cuisine at the Ara Restaurant. It is open from 6:30 am to 10:30 pm.
+
+        This property is 15 minutes’ drive from the Manati Park and 20 minutes’ drive from Bavaro Beach. The Coral Motorway is 3 km away.
+
+        Couples particularly like the location — they rated it 9.1 for a two-person trip.
+
+        We speak your language!
+    </string>
+
+    <string name="santamaria_info">
+     Located in Marsala, Baglio Oneto Dei Principi Di San Lorenzo - Luxury Wine Resort is in a rural area and
+        near the beach. Museo Archeologico di Baglio Anselmi and Museum of Salt are cultural highlights,
+        and some of the area\'s notable landmarks include Riserva Naturale dello Stagnone and Mozia.
+        Discover the area\'s water adventures with water skiing and windsurfing nearby, or enjoy the great
+        outdoors with mountain biking and hiking/biking trails.
+    </string>
+
+    <string name="losangeles_info">
+      Situated in Beverly Hills, this hotel is 12 minutes\' walk from shopping on Rodeo Drive. It features gourmet on-site dining options, a full-service spa and spacious guest rooms with flat-screen TVs.
+
+        Cream colored rooms boast an iPod docking station at Beverly Hills The Peninsula. A microwave, refrigerator and minibar are available in all rooms.
+
+        World-class dining for breakfast, lunch and dinner is available at the Belvedere restaurant. The Belvedere is a lively seafood-centric Mediterranean restaurant showcasing award-winning cuisine in a warm and inviting environment. The adjacent outdoor terrace space is a destination for al fresco dining under the glittering Beverly Hills evening sky.
+
+        A large rooftop outdoor pool and a modern gym with personal coaches are available. Free WiFi is available throughout the hotel. Upon check-in guests can enjoy free fresh fruit and a welcome beverage. Shoe shining services are available.
+
+        The University of California Los Angeles is 4 km from The Peninsula. Universal Studios is 13.4 km away.
+
+        Couples particularly like the location — they rated it 9.3 for a two-person trip.
+
+        We speak your language!
+    </string>
+
+    <string-array name="numPeople">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="numRooms">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+</resources>

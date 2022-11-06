@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="2dp">
+
+
+    <RelativeLayout
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/helpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Help Page"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/firstThingToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helpTitle"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="1st thing to do:"
+        android:textColor="#FFD000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/firstThingDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstThingToDo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Click the '\select date'\ button in blue where there'\s a black calendar symbol next to it to set your reservation date."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/example1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstThingDescription"
+        app:srcCompat="@drawable/example" />
+
+    <TextView
+        android:id="@+id/secondThingToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/example1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="2nd thing to do:"
+        android:textColor="#FFD000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/secondThingDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondThingToDo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Click the grey button with a black arrow down to the left of the blue rectangle that says '\select number of people in it'\ to select the number of people."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/example2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondThingDescription"
+        app:srcCompat="@drawable/examplee" />
+
+    <TextView
+        android:id="@+id/thirdThingToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/example2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="3rd thing to do:"
+        android:textColor="#FFD000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/thirdThingDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdThingToDo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="After doing the 2 first things to do click the '\save'\ button to save your information about the date that you selected and the number of people."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/example3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdThingDescription"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/exampleee" />
+
+    <ImageView
+        android:id="@+id/example4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdThingDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/example3"
+        app:srcCompat="@drawable/exampleeee" />
+
+    <TextView
+        android:id="@+id/fourthThingToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thirdThingDescription"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="4th thing to do:"
+        android:textColor="#FFD000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fourthThingDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fourthThingToDo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="The last thing to do is to click the '\search'\ button under the '\save'\ button which will lead you to the next page."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</RelativeLayout>

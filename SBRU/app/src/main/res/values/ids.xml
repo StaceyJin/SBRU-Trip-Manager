@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cvc" type="id" />
+    <item name="paymentTitle" type="id" />
+    <item name="nameCard" type="id" />
+    <item name="editOwner" type="id" />
+    <item name="cardNum" type="id" />
+    <item name="editCardNum" type="id" />
+    <item name="expCard" type="id" />
+    <item name="editExpCard" type="id" />
+    <item name="editcvc" type="id" />
+    <item name="process" type="id" />
+    <item name="txtViewResDate" type="id" />
+    <item name="cancel" type="id" />
+    <item name="btnSaveToTable" type="id" />
+    <item name="InnerRelativeLayout" type="id" />
+    <item name="helpTitle" type="id" />
+    <item name="firstThingToDo" type="id" />
+    <item name="firstThingDescription" type="id" />
+    <item name="example1" type="id" />
+    <item name="secondThingToDo" type="id" />
+    <item name="secondThingDescription" type="id" />
+    <item name="example2" type="id" />
+    <item name="thirdThingToDo" type="id" />
+    <item name="thirdThingDescription" type="id" />
+    <item name="example3" type="id" />
+    <item name="example4" type="id" />
+    <item name="fourthThingToDo" type="id" />
+    <item name="fourthThingDescription" type="id" />
+    <item name="palmtree" type="id" />
+</resources>

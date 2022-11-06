@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ConfirmResort">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/resortTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#A2B9BC"
+            android:drawableRight="@drawable/treeicon"
+            android:gravity="center"
+            android:text="Resort Confirmation"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="#A2B9BC" />
+
+        <ImageView
+            android:id="@+id/imageViewId"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/resortTitle"
+            android:scaleType="fitXY"
+            android:src="@drawable/vacation4" />
+
+        <TextView
+            android:id="@+id/numRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/imageViewId"
+            android:layout_marginTop="20dp"
+            android:background="#A3EAF3"
+            android:drawableLeft="@drawable/room"
+            android:gravity="center"
+            android:text="Select Number of Room"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A3EAF3" />
+
+        <Spinner
+            android:id="@+id/selectNumR"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/numRoom"
+            android:layout_alignBottom="@id/numRoom"
+            android:layout_toRightOf="@id/numRoom"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/txtViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/numRoom"
+            android:layout_marginTop="20dp"
+            android:text="@string/cancun_info"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtViewId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#A3EAF3"
+            android:gravity="center"
+            android:text="Go to Payment"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A3EAF3" />
+
+
+    </RelativeLayout>
+</ScrollView>

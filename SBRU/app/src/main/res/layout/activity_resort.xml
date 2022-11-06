@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    tools:context=".Resort">
+
+    <TextView
+        android:id="@+id/resortTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#7653B3"
+        android:drawableRight="@drawable/treeicon"
+        android:gravity="center"
+        android:text="Select your Resort!"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#7653B3" />
+
+    <ImageView
+        android:id="@+id/imageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/resortTitle"
+        android:scaleType="fitXY"
+        android:src="@drawable/vacation2" />
+
+
+    <Button
+        android:id="@+id/btnCancun"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewId"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/resort"
+        android:text="Cancun Resort"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#0B25B5" />
+
+    <Button
+        android:id="@+id/btnMiami"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCancun"
+        android:drawableLeft="@drawable/resort"
+        android:text="Miami Resort"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#3147C1" />
+
+    <Button
+        android:id="@+id/btnPuntaCana"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnMiami"
+        android:drawableLeft="@drawable/resort"
+        android:text="Punta Cana Resort"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#3A50CA" />
+
+    <Button
+        android:id="@+id/btnSantaMaria"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPuntaCana"
+        android:drawableLeft="@drawable/resort"
+        android:text="Santa Maria Resort"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#6777CF" />
+
+    <Button
+        android:id="@+id/btnLosAngeles"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSantaMaria"
+        android:drawableLeft="@drawable/resort"
+        android:text="Los Angeles Resort"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#A8B2EC" />
+</RelativeLayout>
